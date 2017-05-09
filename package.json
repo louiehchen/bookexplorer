@@ -1,5 +1,5 @@
 {
-  "name": "setup",
+  "name": "bookexplorer",
   "version": "1.0.0",
   "babel": {
     "presets": [
@@ -13,7 +13,9 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack",
-    "start": "webpack-dev-server"
+    "start": "webpack-dev-server",
+    "prod": "NODE_ENV=production node server.js",
+    "postinstall": "webpack -p"
   },
   "keywords": [],
   "author": "",
