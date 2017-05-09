@@ -9,7 +9,7 @@
       "react"
     ]
   },
-  "description": "",
+  "description": "Simple React App Book Explorer to learn React.js and ES6.",
   "main": "index.js",
   "scripts": {
     "build": "webpack",
@@ -31,5 +31,19 @@
     "react-dom": "^15.5.4",
     "webpack": "^1.14.0",
     "webpack-dev-server": "^1.16.2"
-  }
+  },
+  "dependencies": {
+    "babel-preset-react": "^6.24.1",
+    "react-bootstrap": "^0.30.10",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/louiehchen/bookexplorer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/louiehchen/bookexplorer/issues"
+  },
+  "homepage": "https://github.com/louiehchen/bookexplorer#readme"
 }
