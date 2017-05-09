@@ -1,6 +1,9 @@
 {
   "name": "bookexplorer",
   "version": "1.0.0",
+  "engine": {
+    "node": "7.10.0",
+  },
   "babel": {
     "presets": [
       "es2015",
